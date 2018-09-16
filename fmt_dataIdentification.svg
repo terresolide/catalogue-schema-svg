@@ -162,7 +162,7 @@
 	<text x="5" y="170" text-anchor="start" ><tspan class="label">status</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ProgressCode" xlink:title="Code d'état des données: obsolète, complet, en cours..."  xlink:show="new">MD_ProgressCode
 	</a>
 	</text>
-	<text x="5" y="190" text-anchor="start" ><tspan class="label">pointOfContact</tspan> [0..*] : <a class="link" xlink:href="metadata/responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">CI_ResponsibleParty</a></text>
+	<text x="5" y="190" text-anchor="start" ><tspan class="label">pointOfContact</tspan> [0..*] : <a class="link" xlink:href="responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">CI_ResponsibleParty</a></text>
 	
 	<text x="5" y="210" text-anchor="start" ><tspan class="label">spatialRepresentationType</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationType" xlink:title="Code pour la représentation spatiale: vector, grid, tin"  xlink:show="new">MD_SpatialRepresentationType
 	</a>
