@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="metadata_svg" version="1.2" viewBox="0 0 1230 750" preserveAspectRatio="xMidYMid" fill-rule="evenodd"  stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+<style type="text/css">
+  <![CDATA[
+   text {
+   font-family: Arial;
+   font-size:12px;
+   }
+   line.title {
+     stroke:#000;
+	 stroke-width:1px;
+	 fill:none;
+	 stroke-opacity:0.5;
+   }
+   text.title,
+   text tspan.label {
+     font-family: Arial;
+     font-weight:900;
+	 font-size: 12px;
+	 fill: #7f1832;
+   }
+   text.title-abstract {
+    font-family: Arial;
+     font-weight:600;
+	 font-style:italic;
+	 font-size: 12px;
+	 fill: #7f1832;
+   }
+   text.comment {
+     font-style: italic;
+   }
+   text a.link {
+     color:blue;
+      fill       : #0000aa;
+   }
+   text a.link:hover{
+     color:blue;
+      fill       : #0000ff;
+	  text-decoration-line: underline;
+   }
+
+   rect.classe {
+     fill:#efefef;
+     stroke:#000;
+     stroke-width:1px;
+   }
+   a:hover rect.classe{
+    fill: #ffdede;
+   }
+   a text:not('title'){
+     pointer-events:none;
+	 }
+	 svg a:hover {
+	   text-decoration-line: none;
+	 }
+   rect.classe.selected{
+     fill:#ffdab9;
+     stroke:#000;
+     stroke-width:1px;
+   }
+   rect.classe.unused{
+     fill:#fff;
+   }
+   line:not(.title) {
+   /*stroke-dasharray: 3;*/
+    /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
+    -webkit-filter: drop-shadow( 2px 2px 2px #000 ); 
+            filter: drop-shadow( 2px 2px 2px #000 );
+   }
+   text.get {
+     font-weight:700;
+   }
+  ]]>
+ </style>
+<defs>
+<marker id="square"  viewBox="0 0 18 12" refX="0" refY="5" markerUnits="strokeWidth" orient="auto" markerWidth="12" markerHeight="10" stroke="black" stroke-width="1" fill="#ffffff">
+            <polygon points="0,5 8,0 16,5 8,10" />
+        </marker>
+<marker id="arrow" viewBox="0 0 15 12" markerWidth="16" markerHeight="8" refX="12" refY="5" orient="auto" markerUnits="strokeWidth" stroke="black" stroke-width="1" fill="none">
+ <polyline points="0,0 12,5 0,10" />
+</marker>
+<marker id="square0" markerWidth="8" markerHeight="8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M0,4 L4,8 L8,4 L4,0 z" fill="#000"/>
+</marker>
+<marker id="sequenceflow-end-white-black" viewBox="0 0 20 20" refX="11" refY="10" markerWidth="10" markerHeight="10" orient="auto">
+<path d="M 1 5 L 11 10 L 1 15 Z" style="fill: black; stroke-width: 1px; stroke-linecap: round; stroke-dasharray: 10000, 1; stroke: black;"></path>
+</marker>
+
+<filter id="f3" x="0" y="0" width="200%" height="150%"><feOffset result="offOut" in="SourceGraphic" dx="5" dy="5"/><feGaussianBlur result="blurOut" in="offOut" stdDeviation="3"/><feBlend in="SourceGraphic" in2="blurOut" mode="normal"/></filter>
+
+<filter id="f4" color-interpolation-filters="sRGB"><feOffset result="offOut" in="SourceAlpha" dx="5" dy="5"/>
+ <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="1 0 0 0 0                                              0 1 0 0 0                                              0 0 1 0 0                                               0 0 0 1 0"/>
+<feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="3"/><feBlend in="SourceGraphic" in2="blurOut" mode="normal"/></filter>
+<filter id="f5" color-interpolation-filters="sRGB"><feOffset result="offOut" in="SourceAlpha" dx="5" dy="5"/>
+ <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0 0 0 0.9 0                                              0 0 0 0.3 0                                              0 0 0 0.3 0                                               0 0 0 1 0"/>
+<feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="3"/><feBlend in="SourceGraphic" in2="blurOut" mode="normal"/></filter>
+</defs>
+<g>
+<g id="referenceSystem" transform="translate(440,0)">
+<a xlink:href="metadata/reference-system" xlink:title="Information sur les référentiels spatial, temporel et vertical des données">
+<rect x="0" y="0" width="320" height="90" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="320" y2="30"  class="title" style="" />
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_ReferenceSystem</text>	
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur les référentiels spatial, temporel</text>
+	<text x="5" y="70" text-anchor="start" class="comment">vertical des données)</text>
+</a>
+</g>
+
+<g id="maintenanceInformation" transform="translate(900,180)">
+<a xlink:href="metadata/maintenance" xlink:title="Information sur la maintenance des métadonnées ou des données">
+<rect x="0" y="0" width="320" height="90" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="320" y2="30"  class="title" style="" />
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_Maintenance</text>	
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur la maintenance des métadonnées</text>
+	<text x="5" y="70" text-anchor="start" class="comment">ou des données)</text>
+</a> 
+</g>
+<g id="dataIdentificationInformation" transform="translate(920,360)">
+<a xlink:href="metadata/identification" xlink:title="Information d'identification des données: titre, résumé... ">
+<rect x="0" y="0" width="300" height="90" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="300" y2="30"  class="title" style="" />
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_DataIdentification</text>	
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations d'identification des données</text>
+	<text x="5" y="70" text-anchor="start" class="comment">titre, résumé, date...)</text>
+</a> 
+</g>
+<g id="constraintsInformation" transform="translate(900,540)">
+<a xlink:href="metadata/constraints" xlink:title="Information sur les restrictions d'accès et d'utilisation">
+<rect x="0" y="0" width="300" height="90" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="300" y2="30"  class="title" style="" />
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_Constraints</text>	
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur les restrictions légales ou non</text>
+	<text x="5" y="70" text-anchor="start" class="comment">d'accès et d'utilisation)</text>
+</a> 
+</g>
+<g id="spatialRepresentation" transform="translate(50,50)">
+<a xlink:href="metadata/spatial-representation" xlink:title="Information sur la représentation spatiale des données">
+<rect x="0" y="0" width="320" height="90" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="40" x2="320" y2="40"  class="title" style="" />
+<text x="150" y="15" width="300" text-anchor="middle" class="title-abstract"><![CDATA[ << Abstract >> ]]></text>
+<text x="150" y="30" width="300" text-anchor="middle" class="title">MD_SpatialRepresentation</text>	
+
+	<text x="5" y="60" text-anchor="start" class="comment">(Informations sur la représentation spatiales</text>
+	<text x="5" y="80" text-anchor="start" class="comment"> des données )</text>
+ </a>
+
+</g>
+<g id="dataQuality" transform="translate(0,200)">
+<a xlink:href="metadata/data-quality" xlink:title="Information sur la qualité des données">
+<rect x="0" y="0" width="320" height="70" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="320" y2="30"  class="title" style="" />
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">DQ_DataQuality</text>	
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur la qualité des données)</text>
+</a>
+</g>
+
+<g id="distribution" transform="translate(20,460)">
+<a xlink:href="metadata/distribution" xlink:title="Information sur la distribution des données">
+<rect x="0" y="0" width="300" height="70" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="300" y2="30"  class="title" style="" />
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_Distribution</text>	
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur la distribution des données)</text>
+</a>
+</g>
+
+<g id="portrayalCatalogueReference" transform="translate(210,650)">
+<a xlink:href="metadata/portrayal-catalogue" xlink:title="Information sur la représentation spatiale des données">
+<rect x="0" y="0" width="300" height="90" class="classe" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="300" y2="30"  class="title" style="" />
+<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_PortrayalCatalogueReference</text>	
+
+	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur le catalogue de style utilisé  </text>
+	<text x="5" y="70" text-anchor="start" class="comment"> pour la représentation des données )</text>
+</a>
+</g>
+
+<g id="metadata" transform="translate(440,300)">
+
+<rect x="0" y="0" width="320" height="190" class="classe selected" filter="url(#f4)"/>
+<line x1="0" y1="30" x2="320" y2="30"  class="title" style="" />
+  <a xlink:href="#" xlink:title="Informations générales sur les données" target="_blank">
+	   <text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_Metadata</text>	
+	</a>
+	<text x="5" y="50" text-anchor="start" ><tspan class="label">fileIdentifier</tspan> [0..1] : CharacterString</text>
+	<text x="5" y="70" text-anchor="start" ><tspan class="label">metadataLanguage</tspan> [2..*] : <a class="link" xlink:href="http://www.loc.gov/standards/iso639-2/" xlink:title="Code language ISO639" xlink:show="new">LanguageCode</a></text>
+	<text x="5" y="90" text-anchor="start" ><tspan class="label">characterSet</tspan> [0..1] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" xlink:title="Code langue ISO639"  xlink:show="new">MD_CharacterSetCode</a>
+	</text>
+	<text x="5" y="110" text-anchor="start" ><tspan class="label">parentIdentifier</tspan> [0..1] : CharacterString</text>
+	<text x="5" y="130" text-anchor="start" ><tspan class="label">hierarchyLevel</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" xlink:title="Code du type de ressource: dataset ou serie"  xlink:show="new">MD_ScopeCode
+	</a>
+	</text>
+	<text x="5" y="150" text-anchor="start" ><tspan class="label">metadataContact</tspan> [1..*] : <a class="link" xlink:href="metadata/responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">CI_ResponsibleParty</a></text>
+	<text x="5" y="170" text-anchor="start" ><tspan class="label">dateStamp</tspan>  : Date</text>
+	</g>
+
+<line x1="500" y1="298" x2="350" y2="145" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="spatialRepresentation-text" transform="translate(300,160)">
+  <rect x="0" y="0" width="180" height="20" fill="#fff" fill-opacity="0.7" />
+  <text x="5" y="15" text-anchor="start" class="get">+ spatialRepresentationInfo: 0..*</text>
+</g>
+
+<line x1="438" y1="350" x2="250" y2="275" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="dataQuality-text" transform="translate(270,290)">
+  <rect x="0" y="0" width="120" height="20" fill="#fff" fill-opacity="0.7" />
+  <text x="5" y="15" text-anchor="start" class="get">+ dataQualityInfo: 0..*</text>
+</g>
+
+<line x1="438" y1="410" x2="250" y2="458" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="distibution-text" transform="translate(270,420)">
+  <rect x="0" y="0" width="120" height="20" fill="#fff" fill-opacity="0.7" />
+  <text x="5" y="15" text-anchor="start" class="get">+ distributionInfo: 0..1</text>
+</g>
+<line x1="600" y1="300" x2="600" y2="92" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="referenceSystem-text" transform="translate(520,120)">
+  <rect x="0" y="0" width="120" height="20" fill="#fff" fill-opacity="0.7" />
+  <text x="5" y="15" text-anchor="start" class="get">+ referenceSystemInfo: 0..*</text>
+</g>
+<line x1="760" y1="330" x2="898" y2="215" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="metadataMaintenance-text" transform="translate(760,275)">
+  <rect x="0" y="0" width="120" height="20" fill="#fff" fill-opacity="0.7" />
+  <text x="5" y="15" text-anchor="start" class="get">+ metadataMaintenance: 0..1</text>
+</g>
+<line x1="1050" y1="358" x2="1050" y2="275" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="resourceMaintenance-text" transform="translate(1050,295)">
+  <rect x="-60" y="0" width="120" height="35" fill="#fff" fill-opacity="0.7" />
+  <text x="5" y="15" text-anchor="middle" class="get">+ resourceMaintenance</text>
+   <text x="5" y="30" text-anchor="middle" class="get">0..*</text>
+</g>
+<line x1="760" y1="400" x2="918" y2="400" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="identification-text" transform="translate(780,360)">
+  <rect x="0" y="0" width="120" height="35" fill="#fff" fill-opacity="0.7" />
+  <text x="60" y="15" text-anchor="middle" class="get">+ identificationInfo</text>
+  <text x="60" y="30" text-anchor="middle" class="get">1</text>
+</g>
+<line x1="1050" y1="450" x2="1050" y2="538" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="constraints2-text" transform="translate(1050,485)">
+  <rect x="-60" y="0" width="130" height="35" fill="#fff" fill-opacity="0.7" />
+  <text x="0" y="15" text-anchor="middle" class="get">+ resourceConstraints</text>
+  <text x="0" y="30" text-anchor="middle" class="get">0..*</text>
+</g>
+
+
+<line x1="500" y1="492" x2="370" y2="648" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
+<g id="constraints2-text" transform="translate(340,590)">
+<rect x="0" y="0" width="130" height="35" fill="#fff" fill-opacity="0.7" />
+  <text x="60" y="15" text-anchor="middle" class="get">+ portrayalCatalogueInfo</text>
+  <text x="60" y="30" text-anchor="middle" class="get">0..*</text>
+</g>
+
+</g>
+</svg>
