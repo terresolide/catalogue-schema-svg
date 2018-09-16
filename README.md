@@ -1,4 +1,4 @@
-# Schémas ISO19115 svg
+# catalogue-schema-svg
 
 > Schéma class in svg to navigate into  ISO19115
 
@@ -12,6 +12,7 @@ If trouble see [https://browsersync.io/](https://browsersync.io/)
 * Indicate the svg file in index.html with its width and height.
 
 ## serve with hot reload at localhost:3000
+```
 gulp serve
 ```
 
