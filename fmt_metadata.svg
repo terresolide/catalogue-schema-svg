@@ -182,7 +182,7 @@
 	   <text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_Metadata</text>	
 	</a>
 	<text x="5" y="50" text-anchor="start" ><tspan class="label">fileIdentifier</tspan> [0..1] : CharacterString</text>
-	<text x="5" y="70" text-anchor="start" ><tspan class="label">metadataLanguage</tspan> [2..*] : <a class="link" xlink:href="http://www.loc.gov/standards/iso639-2/" xlink:title="Code language ISO639" xlink:show="new">LanguageCode</a></text>
+	<text x="5" y="70" text-anchor="start" ><tspan class="label">metadataLanguage</tspan> [2..*] : <a class="link" xlink:href="http://www.loc.gov/standards/iso639-2/ISO-639-2_utf-8.txt" xlink:title="Code language ISO639" xlink:show="new">LanguageCode</a></text>
 	<text x="5" y="90" text-anchor="start" ><tspan class="label">characterSet</tspan> [0..1] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" xlink:title="Code langue ISO639"  xlink:show="new">MD_CharacterSetCode</a>
 	</text>
 	<text x="5" y="110" text-anchor="start" ><tspan class="label">parentIdentifier</tspan> [0..1] : CharacterString</text>

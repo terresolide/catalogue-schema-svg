@@ -168,7 +168,7 @@
 	</a>
 	</text>
 	<text x="5" y="230" text-anchor="start" ><tspan class="label">spatialResolution</tspan> [0..*] : <a class="link" xlink:href="../metadata/autres-classes#md_resolution" xlink:title="Classe décrivant la résolution spatiale" xlink:show="new">MD_Resolution</a></text>
-    <text x="5" y="250" text-anchor="start" ><tspan class="label">dataLanguage</tspan> [1..*] : CharacterString</text>
+    <text x="5" y="250" text-anchor="start" ><tspan class="label">dataLanguage</tspan> [1..*] : <a class="link" xlink:href="http://www.loc.gov/standards/iso639-2/ISO-639-2_utf-8.txt" xlink:title="Code langue Norme ISO639-2">LanguageCode</a></text>
 	<text x="5" y="270" text-anchor="start" ><tspan class="label">dataCharacterSet</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" xlink:title="Code encodage des caractères"  xlink:show="new">MD_CharacterSetCode</a>
 	</text>
 	<text x="5" y="290" text-anchor="start" ><tspan class="label">topicCategory</tspan> [0..*] : <a class="link" xlink:href="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:2" xlink:title="Code des catégories"  xlink:show="new">MD_TopicCategoryCode</a>
