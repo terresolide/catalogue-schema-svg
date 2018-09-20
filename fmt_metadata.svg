@@ -100,7 +100,7 @@
 <a xlink:href="metadata/reference-system" xlink:title="Information sur les référentiels spatial, temporel et vertical des données">
 <rect x="0" y="0" width="320" height="90" class="classe" filter="url(#f4)"/>
 <line x1="0" y1="30" x2="320" y2="30"  class="title" style="" />
-	<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_ReferenceSystem</text>	
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_ReferenceSystem</text>	
 	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur les référentiels spatial, temporel</text>
 	<text x="5" y="70" text-anchor="start" class="comment">vertical des données)</text>
 </a>
@@ -158,7 +158,7 @@
 <a xlink:href="metadata/distribution" xlink:title="Information sur la distribution des données">
 <rect x="0" y="0" width="300" height="70" class="classe" filter="url(#f4)"/>
 <line x1="0" y1="30" x2="300" y2="30"  class="title" style="" />
-	<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_Distribution</text>	
+	<text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_Distribution</text>	
 	<text x="5" y="50" text-anchor="start" class="comment">(Informations sur la distribution des données)</text>
 </a>
 </g>

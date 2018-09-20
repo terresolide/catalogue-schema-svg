@@ -19,6 +19,9 @@
 	 font-size: 12px;
 	 fill: #7f1832;
    }
+   text tspan.label.custom{
+     fill: #ff0000;
+   }
    text.title-abstract {
     font-family: Arial;
      font-weight:600;
@@ -127,7 +130,7 @@
 <a xlink:href="identification/browse-graphic" xlink:title="Information sur la représentation spatiale des données">
 <rect x="0" y="0" width="300" height="70" class="classe" filter="url(#f4)"/>
 <line x1="0" y1="30" x2="300" y2="30"  class="title" style="" />
-<text x="150" y="20" width="300" text-anchor="middle" class="title">MD_BrowseGraphic</text>	
+<text x="150" y="20" width="300" text-anchor="middle" class="title">FMT_BrowseGraphic</text>	
 
 	<text x="5" y="50" text-anchor="start" class="comment">(Capture, image, des données)</text>
  </a>
@@ -154,26 +157,28 @@
 	   <text x="205" y="20" width="410" text-anchor="middle" class="title">FMT_DataIdentification</text>	
 	</a>
 	<text x="5" y="50" text-anchor="start" ><tspan class="label">title</tspan>: localizedCharacterString</text>
-	<text x="5" y="70" text-anchor="start" ><tspan class="label">dataLastUpdate</tspan> [0..1]: Date</text>
-	<text x="5" y="90" text-anchor="start" ><tspan class="label">dataPublicationDate</tspan> [0..1]: Date</text>
-	<text x="5" y="110" text-anchor="start" ><tspan class="label">dataCreationDate</tspan> [0..1]: Date</text>
-	<text x="5" y="130" text-anchor="start" ><tspan class="label">doi</tspan> [0..1]: CharacterString</text>
-	<text x="5" y="150" text-anchor="start" ><tspan class="label">abstract</tspan>: localizedCharacterString</text>
-	<text x="5" y="170" text-anchor="start" ><tspan class="label">status</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ProgressCode" xlink:title="Code d'état des données: obsolète, complet, en cours..."  xlink:show="new">MD_ProgressCode
+	<text x="5" y="70" text-anchor="start" ><tspan class="label">dataReferenceDate</tspan> [1..*]: <a class="link" xlink:href="../metadata/autres-classes#ci_date" xlink:title="Date de référence des données: publication, création ou mise à jour" xlink:show="new">CI_Date</a></text>
+	<text x="5" y="90" text-anchor="start" ><tspan class="label">identifier</tspan> [0..n]: <a class="link" xlink:href="../metadata/autres-classes#md_identifier" xlink:title="Identifiant unique pour une autre autorité" xlink:show="new">MD_Identifier</a></text>
+	<text x="5" y="110" text-anchor="start" ><tspan class="label">abstract</tspan>: localizedCharacterString</text>
+	<text x="5" y="130" text-anchor="start" ><tspan class="label">status</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ProgressCode" xlink:title="Code d'état des données: obsolète, complet, en cours..."  xlink:show="new">MD_ProgressCode
 	</a>
 	</text>
-	<text x="5" y="190" text-anchor="start" ><tspan class="label">pointOfContact</tspan> [0..*] : <a class="link" xlink:href="responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">CI_ResponsibleParty</a></text>
+	<text x="5" y="150" text-anchor="start" ><tspan class="label">pointOfContact</tspan> [0..*] : <a class="link" xlink:href="responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">CI_ResponsibleParty</a></text>
 	
-	<text x="5" y="210" text-anchor="start" ><tspan class="label">spatialRepresentationType</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationType" xlink:title="Code pour la représentation spatiale: vector, grid, tin"  xlink:show="new">MD_SpatialRepresentationType
+	<text x="5" y="170" text-anchor="start" ><tspan class="label">spatialRepresentationType</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationType" xlink:title="Code pour la représentation spatiale: vector, grid, tin"  xlink:show="new">MD_SpatialRepresentationType
 	</a>
 	</text>
-	<text x="5" y="230" text-anchor="start" ><tspan class="label">spatialResolution</tspan> [0..*] : <a class="link" xlink:href="../metadata/autres-classes#md_resolution" xlink:title="Classe décrivant la résolution spatiale" xlink:show="new">MD_Resolution</a></text>
-    <text x="5" y="250" text-anchor="start" ><tspan class="label">dataLanguage</tspan> [1..*] : <a class="link" xlink:href="http://www.loc.gov/standards/iso639-2/ISO-639-2_utf-8.txt" xlink:title="Code langue Norme ISO639-2">LanguageCode</a></text>
-	<text x="5" y="270" text-anchor="start" ><tspan class="label">dataCharacterSet</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" xlink:title="Code encodage des caractères"  xlink:show="new">MD_CharacterSetCode</a>
+	<text x="5" y="190" text-anchor="start" ><tspan class="label">spatialResolution</tspan> [0..*] : <a class="link" xlink:href="../metadata/autres-classes#md_resolution" xlink:title="Classe décrivant la résolution spatiale" xlink:show="new">MD_Resolution</a></text>
+    <text x="5" y="210" text-anchor="start" ><tspan class="label">dataLanguage</tspan> [1..*] : <a class="link" xlink:href="http://www.loc.gov/standards/iso639-2/ISO-639-2_utf-8.txt" xlink:title="Code langue Norme ISO639-2">LanguageCode</a></text>
+	<text x="5" y="230" text-anchor="start" ><tspan class="label">dataCharacterSet</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" xlink:title="Code encodage des caractères"  xlink:show="new">MD_CharacterSetCode</a>
 	</text>
-	<text x="5" y="290" text-anchor="start" ><tspan class="label">topicCategory</tspan> [0..*] : <a class="link" xlink:href="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:2" xlink:title="Code des catégories"  xlink:show="new">MD_TopicCategoryCode</a>
+	<text x="5" y="250" text-anchor="start" ><tspan class="label">topicCategory</tspan> [1..*] : <a class="link" xlink:href="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:2" xlink:title="Code des catégories"  xlink:show="new">MD_TopicCategoryCode</a>
 	</text>
-	<text x="5" y="310" text-anchor="start" ><tspan class="label">extent</tspan> [0..*] : <a class="link" xlink:href="../metadata/autres-classes#ex_extent" xlink:title="Emprise spatiale, temporelle, verticale" xlink:show="new">EX_Extent</a></text>
+	<text x="5" y="270" text-anchor="start" ><tspan class="label custom">formaterDataCenter</tspan> [0..1] : <a class="link" xlink:href="https://github.com/terresolide/catalogue-codelist-csv/blob/master/codeList/fmtDataCenterCode.csv" xlink:title="Code des centre de données"  xlink:show="new">FormaterDataCenterCode</a>
+	</text>
+	<text x="5" y="290" text-anchor="start" ><tspan class="label custom">link</tspan> [0..*] : <a class="link" xlink:href="../metadata/autres-classes#ci_onlineresource" xlink:title="Liens d'information sur la resource"  xlink:show="new">CI_OnLineResource</a>
+	</text>
+	<text x="5" y="310" text-anchor="start" ><tspan class="label">extent</tspan> : <a class="link" xlink:href="../metadata/autres-classes#ex_extent" xlink:title="Emprise spatiale, temporelle, verticale" xlink:show="new">EX_Extent</a></text>
 </g>
 
 <line x1="400" y1="330" x2="210" y2="142" stroke="#000" stroke-width="2" marker-start="url(#square)" marker-end="url(#arrow)" />
