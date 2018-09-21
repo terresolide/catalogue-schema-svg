@@ -156,10 +156,10 @@
   <a xlink:href="#" xlink:title="Identification des données" target="_blank">
 	   <text x="205" y="20" width="410" text-anchor="middle" class="title">FMT_DataIdentification</text>	
 	</a>
-	<text x="5" y="50" text-anchor="start" ><tspan class="label">title</tspan>: localizedCharacterString</text>
+	<text x="5" y="50" text-anchor="start" ><tspan class="label">title</tspan>: localisedCharacterString</text>
 	<text x="5" y="70" text-anchor="start" ><tspan class="label">dataReferenceDate</tspan> [1..*]: <a class="link" xlink:href="../metadata/autres-classes#ci_date" xlink:title="Date de référence des données: publication, création ou mise à jour" xlink:show="new">CI_Date</a></text>
 	<text x="5" y="90" text-anchor="start" ><tspan class="label">identifier</tspan> [0..n]: <a class="link" xlink:href="../metadata/autres-classes#md_identifier" xlink:title="Identifiant unique pour une autre autorité" xlink:show="new">MD_Identifier</a></text>
-	<text x="5" y="110" text-anchor="start" ><tspan class="label">abstract</tspan>: localizedCharacterString</text>
+	<text x="5" y="110" text-anchor="start" ><tspan class="label">abstract</tspan>: localisedCharacterString</text>
 	<text x="5" y="130" text-anchor="start" ><tspan class="label">status</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ProgressCode" xlink:title="Code d'état des données: obsolète, complet, en cours..."  xlink:show="new">MD_ProgressCode
 	</a>
 	</text>
