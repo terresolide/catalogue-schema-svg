@@ -189,7 +189,7 @@
 	<text x="5" y="130" text-anchor="start" ><tspan class="label">hierarchyLevel</tspan> [0..*] : <a class="link" xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" xlink:title="Code du type de ressource: dataset ou serie"  xlink:show="new">MD_ScopeCode
 	</a>
 	</text>
-	<text x="5" y="150" text-anchor="start" ><tspan class="label">metadataContact</tspan> [1..*] : <a class="link" xlink:href="metadata/responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">CI_ResponsibleParty</a></text>
+	<text x="5" y="150" text-anchor="start" ><tspan class="label">metadataContact</tspan> [1..*] : <a class="link" xlink:href="metadata/responsible-party" xlink:title="Classe décrivant les Organismes (et personnes)" xlink:show="new">FMT_ResponsibleParty</a></text>
 	<text x="5" y="170" text-anchor="start" ><tspan class="label">dateStamp</tspan>  : Date</text>
 	</g>
 
